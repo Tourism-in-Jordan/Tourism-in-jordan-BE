@@ -1,11 +1,11 @@
 # Tourism-in-jordan-BE
 
 ## Names of the members:
-Mutaz Abu taha
-Malik Alhudrub
-Ahmad Falah
-Mohammad Shiyab
-Bayan Banat
+* Mutaz Abu taha
+* Malik Alhudrub
+* Ahmad Falah
+* Mohammad Shiyab
+* Bayan Banat
  
 
 ## Main Idea name:
