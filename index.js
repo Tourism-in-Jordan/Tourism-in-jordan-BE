@@ -6,15 +6,15 @@ const axios = require('axios');
 const bodyParser = require('body-parser');
 const { Client } = require('pg');
 require('dotenv').config();
+const PORT=process.env.PORT;
 const url = process.env.URL;
+const apiKey =process.env.API_KEY;
 const client = new Client(url);
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cors());
-const PORT=process.env.PORT || 3001;
-// const PORT=process.env.PORT || 3001;
-//const port = process.env.PORT || 3001;
+
 
 //////////// Routes ////////////
 app.get('/', homeRouteHandler);
@@ -26,8 +26,30 @@ app.delete('/DELETE/:id', deletevisitSite);
 app.get('*', handelNotFoundError);
 app.use(errorHandler);
 
+//////////// Constructor ////////////
+
+function Sites(site) {
+
+    this.id = site.id;
+    this.name = site.name;
+    this.city = site.city;
+    this.location_lat = site.location_lat;
+    this.location_lng = site.location_lng;
+    this.overview = site.overview;
+    this.image = site.image;
+}
+
 
 ///////// Functions /////////
+
+function homeRouteHandler(req, res) {
+
+    let siteDetails = sitesData.map((site) => {
+        return new Sites(site)
+    })
+
+    res.json(siteDetails);
+}
 
 
 function addVisitListHandler(req,res){
@@ -41,7 +63,6 @@ function addVisitListHandler(req,res){
        }).catch((error)=>{
         errorHandler(error,req,res);
     })
-
 }
 
  
@@ -58,8 +79,8 @@ function updateFeedBackHandler(req,res){
     }).catch((error)=>{
         errorHandler(error,req,res);
     })
-
 }
+
 
 function deletevisitSite(req,res){
     let id = req.params.id; 
@@ -67,69 +88,40 @@ function deletevisitSite(req,res){
     let value = [id];
     client.query(sql,value).then(result=>{
         res.status(204).send("deleted");
-
     }).catch((error)=>{
         errorHandler(error,req,res);
     })
-
 }
 
 
 
 
 function vistListHandler(req,res){
-   
     let sql=`SELECT * FROM visitlist `;
     client.query(sql).then((result)=>{
         res.json(result.rows)
        }).catch((error)=>{
         errorHandler(error,req,res);
     })
-
 }
 
  
 
-function homeRouteHandler(req, res) {
-
-    let siteDetails = sitesData.map((site) => {
-        return new Sites(site)
-    })
-
-    res.json(siteDetails);
-
-
-}
 
 function getWeatherHandler(req, res) {
     let cityName = req.params.city;
-    let url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&APPID=8637a68a72e0461a7615ac82c89bfdc8`
-
+    let url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&APPID=${apiKey}`
     axios.get(url)
         .then(result => {
-            res.json(result.data.main.temp)
+            res.json(result.data)
             console.log(result)
             // res.json(result)
         }).catch((error)=>{
         errorHandler(error,req,res);
     })
-
 }
 
 
-//////////// Constructor ////////////
-
-function Sites(site) {
-
-    this.id = site.id;
-    this.name = site.name;
-    this.city = site.city;
-    this.location_lat = site.location_lat;
-    this.location_lng = site.location_lng;
-    this.overview = site.overview;
-    this.image = site.image;
-
-}
 
 function handelNotFoundError(req,res){
     res.status(404).send('Not Found');
@@ -140,9 +132,9 @@ function errorHandler(err,req,res){
 }
 
 
- client.connect().then(()=>{
-    app.listen(port,()=>{
-        console.log(`listening on port${port}`);
+client.connect().then(()=>{
+    app.listen(PORT,()=>{
+        console.log(`listening on port${PORT}`);
     })
 
 }).catch()
