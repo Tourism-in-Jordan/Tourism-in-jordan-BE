@@ -16,9 +16,9 @@ const PORT=process.env.PORT || 3001;
 // const PORT=process.env.PORT || 3001;
 //const port = process.env.PORT || 3001;
 
-
 //////////// Routes ////////////
 app.get('/', homeRouteHandler);
+app.post('/addVisitList',addVisitListHandler);
 app.get('/weather/:city', getWeatherHandler);
 app.get('/vistList',vistListHandler);
 app.put('/UPDATE/:id', updateFeedBackHandler);
@@ -28,6 +28,24 @@ app.use(errorHandler);
 
 
 ///////// Functions /////////
+
+
+function addVisitListHandler(req,res){
+    let {name,city,image,overview,feedback} =req.body; //destructuring
+    let sql=`INSERT INTO visitlist (name,city,image,overview,feedback)
+    VALUES ($1,$2,$3,$4,$5) RETURNING * `
+    let values=[name,city,image.imageUrl_1,overview,feedback]
+    client.query(sql,values).then((result)=>{
+        console.log(req.body);
+        res.status(201).json(result.rows)
+       }).catch((error)=>{
+        errorHandler(error,req,res);
+    })
+
+}
+
+ 
+ 
 function updateFeedBackHandler(req,res){
     let id = req.params.id // params
     let feedback = req.body.feedback;
@@ -36,9 +54,11 @@ function updateFeedBackHandler(req,res){
     client.query(sql,values).then(result=>{
         console.log(result.rows);
         res.send(result.rows)
+
     }).catch((error)=>{
         errorHandler(error,req,res);
     })
+
 }
 
 function deletevisitSite(req,res){
@@ -47,29 +67,12 @@ function deletevisitSite(req,res){
     let value = [id];
     client.query(sql,value).then(result=>{
         res.status(204).send("deleted");
+
     }).catch((error)=>{
         errorHandler(error,req,res);
     })
 
 }
-
-function handelNotFoundError(req,res){
-    res.status(404).send('Not Found');
-}
-
-function errorHandler(err,req,res){
-    res.status(500).send(err);
-}
-
-client.connect().then(()=>{
-    app.listen(PORT,()=>{
-        console.log(`listening on port${PORT}`);
-    })
-
-
-}).catch()
-
-
 
 
 
@@ -79,8 +82,12 @@ function vistListHandler(req,res){
     let sql=`SELECT * FROM visitlist `;
     client.query(sql).then((result)=>{
         res.json(result.rows)
+       }).catch((error)=>{
+        errorHandler(error,req,res);
     })
-   .catch()
+
+}
+
  
 
 function homeRouteHandler(req, res) {
@@ -103,8 +110,9 @@ function getWeatherHandler(req, res) {
             res.json(result.data.main.temp)
             console.log(result)
             // res.json(result)
-        })
-        .catch()
+        }).catch((error)=>{
+        errorHandler(error,req,res);
+    })
 
 }
 
@@ -123,6 +131,18 @@ function Sites(site) {
 
 }
 
-app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
-})
+function handelNotFoundError(req,res){
+    res.status(404).send('Not Found');
+}
+
+function errorHandler(err,req,res){
+    res.status(500).send(err);
+}
+
+
+ client.connect().then(()=>{
+    app.listen(port,()=>{
+        console.log(`listening on port${port}`);
+    })
+
+}).catch()
