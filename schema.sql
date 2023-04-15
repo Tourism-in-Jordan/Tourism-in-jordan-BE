@@ -5,11 +5,7 @@ DROP TABLE IF EXISTS visitlist ;
     city VARCHAR(255),
     image VARCHAR(255),
     overview VARCHAR(2000),
-    feedback VARCHAR(255)
-
-
-
-
+    feedback VARCHAR(350)
 );
 
 
