@@ -15,3 +15,15 @@ app.use(cors());
 // const PORT=process.env.PORT || 3001;
 const port=process.env.PORT || 3001;
 
+app.get('/vistList',vistListHandler);
+
+
+function vistListHandler(req,res){
+   
+    let sql=`SELECT * FROM visitlist `;
+    client.query(sql).then((result)=>{
+        res.json(result.rows)
+    })
+   .catch()
+ 
+}
