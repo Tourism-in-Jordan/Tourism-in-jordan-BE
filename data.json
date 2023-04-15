@@ -1,0 +1,218 @@
+[
+    {
+        "id": "1",
+        "name": "Petra",
+        "city": "Ma'an",
+        "location-lat": "30.328426",
+        "location_lng": "35.444356",
+        "image":{
+            "imageUrl_1": "https://img.freepik.com/free-photo/closeup-shot-petra-uum-jordan-during-daytime_181624-10976.jpg?w=1380&t=st=1681391056~exp=1681391656~hmac=0b44cdc447c705e51c4bd8b3c9098b4c77a1988c911cd98f4164ecb5651e1ed6",
+            "imageUrl_2": "https://img.freepik.com/free-photo/cliffs-caves-desert-full-dry-grass-cloudy-sky-during-daytime_181624-27961.jpg?w=1380&t=st=1681391095~exp=1681391695~hmac=f722f93bcc25235155a1b84a761f6ab652c419e185aabb2014d1ad1e440ec559",
+            "imageUrl_3": "https://as2.ftcdn.net/v2/jpg/02/41/88/63/1000_F_241886367_8BlqyOcUEe9820WxGYAF602FymQpqEFo.jpg",
+            "imageUrl_4": "https://images.pexels.com/photos/1631665/pexels-photo-1631665.jpeg"
+        },
+
+        "overview": "The city of Petra, capital of the Nabataean Arabs is one of the most famous archaeological sites in the world it is Located 240 km south of the capital Amman and 120 km north of the red sea town of Aqaba (see the Map) Petra the world wonder is undoubtedly Jordans most valuable treasure and greatest tourist attraction and it is visited by tourists from all over the world.it is not known precisely when Petra was built but the city began to prosper as the capital of the Nabataean Empire from the 1st century BC which grew rich through trade in frankincense myrrh and spices"
+    },
+    {
+        "id": "2",
+        "name": "Om-Qais",
+        "city": "Irbid",
+        "location_lat": "32.656130",
+        "location_lng": "35.677266",
+        "image":{
+            "imageUrl_1": "https://d3qvqlc701gzhm.cloudfront.net/full/af8cf42de9791d5bd35b502ab3aa06905a712b9ad8086c8c38d998fe91c7dcac.jpg",
+            "imageUrl_3": "https://d3qvqlc701gzhm.cloudfront.net/full/ed03e6be7f72158839a7c446d63e76673575b7e4e753cc9bfd30427af3cd604d.jpg",
+            "imageUrl_2": "https://international.visitjordan.com/uploads/attractions/9a5ed91f-36e7-4f52-a047-68686a76a5bc.png",
+            "imageUrl_4": "https://d3qvqlc701gzhm.cloudfront.net/full/e7b5d982b5fe8abcf6c168f53f1cd9975db688ae76462b8f87909eabacab89d1.jpg"
+        },
+
+        "overview": "Umm Qais (Gadara) built using stunning black basalt stones was one of the cities of the Decapolis planned with a Roman city layout. The Ottoman village on top of part of the ancient city was acquired by the Department of Antiquities who now has several excavation and conservation projects at the site including the restoration of the main (west) theatre.The location of Umm Qais is particularly significant. Visitors to the site can view the Syrian Golan Heights Mount Hermon Lake Tiberias and the north Palestinian plains."
+    },
+    {
+        "id": "3",
+        "name": "Dead sea",
+        "city": "West Madaba",
+        "location_lat": "31.542377",
+        "location_lng": "35.565185",
+        "image":{
+            "imageUrl_1": "https://images.pexels.com/photos/3927155/pexels-photo-3927155.jpeg",
+            "imageUrl_2": "https://images.pexels.com/photos/12847820/pexels-photo-12847820.jpeg",
+            "imageUrl_3": "https://images.pexels.com/photos/348525/pexels-photo-348525.jpeg",
+            "imageUrl_4": "https://images.pexels.com/photos/6708142/pexels-photo-6708142.jpeg"
+        },
+     
+        "overview": "The Dead Sea, also called the Salt Sea, is a salt lake bordering Jordan to the east, and Israel to the west. Its surface and shores are 427 metres below sea level, Earth's lowest elevation on land. The Dead Sea is 306 m deep, the deepest hypersaline lake in the world. With 34.2% salinity (in 2011), it is also one of the world's saltiest bodies of water, though Lake Vanda in Antarctica (35%) Lake Assal (Djibouti) (34.8%), Lagoon Garabogazköl in the Caspian Sea (up to 35%) and some hypersaline ponds and lakes of the McMurdo Dry Valleys in Antarctica (such as Don Juan Pond (44%) have reported higher salinities. It is 9.6 times as salty as the ocean. This salinity makes for a harsh environment in which animals cannot flourish hence its name. The Dead Sea is 50 kilometres long and 15 kilometres wide at its widest point. It lies in the Jordan Rift Valley and its main tributary is the Jordan River."
+    },
+    {
+        "id": "4",
+        "name": "Jarash Ruins",
+        "city": "Jarash",
+        "location_lat": "32.283816",
+        "location_lng": "35.893051",
+        "image":{
+            "imageUrl_1": "https://images.pexels.com/photos/5104085/pexels-photo-5104085.jpeg",
+            "imageUrl_2": "https://images.pexels.com/photos/5104057/pexels-photo-5104057.jpeg",
+            "imageUrl_3": "https://www.worldhistory.org/img/r/p/1000x1200/9355.jpg.webp?v=1611398702",
+            "imageUrl_4": "https://www.worldhistory.org/img/r/p/1000x1200/9353.jpg.webp?v=1641109502"
+        },
+  
+        "overview": "Once ruled by the Romans as part of the Decapolis League today Jerash is a popular city that is internationally renowned for its preservation and restoration of prominent Roman structures. Here visitors can spend their days in awe of the plazas temples and fountains that were once at the epicenter of the Roman Empire."
+    },
+    {
+        "id": "5",
+        "name": "Ajloun Castle",
+        "city": "Ajloun",
+        "location_lat": "32.325237",
+        "location_lng": "35.727514",
+        "image":{
+            "imageUrl_1": "https://kaleela.com/Content/BlogImages/small/ajloun-castle-discover-one-of-the-historcal-places-in-jordan.png",
+            "imageUrl_2": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Ajlun_Green.jpg",
+            "imageUrl_3": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Ajloun_Castle.jpg/1200px-Ajloun_Castle.jpg",
+            "imageUrl_4": "https://afar.brightspotcdn.com/dims4/default/d5201bd/2147483647/strip/false/crop/1400x933+0+0/resize/1400x933!/quality/90/?url=https%3A%2F%2Fafar-media-production-web.s3.amazonaws.com%2Fbrightspot%2F41%2Fba%2F87bda750a41e1de8e8c8e0017637%2Foriginal-41705aa8c13bbdc416e8b45db2c783f1.jpg"
+        },
+      
+        "overview": "Ajloun Castle more formally known as Qal'at Ar-Rabad towers above the green hills of Ajloun and can be seen from many miles away betraying its strategic purpose as a military watch post that protected the trade routes in the 12th-15th centuries. It was first built in 1184 by one of Saladins generals Izzeddin Usama Mungidh to repel the Crusader threats to north Jordan (the Crusaders had already occupied south Jordan from their massive castles at Showbak and Kerak and were driven out of TransJordan in 1188/1189). The Ajloun castle was expanded into its current configuration in 1214."
+    },
+    {
+        "id": "6",
+        "name": "Wadi Rum",
+        "city": "Aqaba",
+        "location_lat": "29.568198",
+        "location_lng": "35.392999",
+        "image":{
+            "imageUrl_1": "http://wadirum.jo/wp-content/uploads/2013/10/wadi-rum16.jpg",
+            "imageUrl_2": "http://wadirum.jo/wp-content/uploads/2013/10/wadi-rum17.jpg",
+            "imageUrl_3": "http://wadirum.jo/wp-content/uploads/2013/10/wadi-rum9.jpg",
+            "imageUrl_4": "https://images.pexels.com/photos/13458330/pexels-photo-13458330.jpeg"
+        },
+       
+        "overview": "The Valley of the Moon depicted as Mars in several Hollywood feature films Wadi Rum is an Arabian fairy-tale waiting to be discovered. Home to nomadic Bedouin tribes Wadi Rum is a a quiet getaway of stars sand and sun a perfect complement from Ammans epicenter. Once inhabited by the Nabataeans of prehistoric times Wadi Rum allows you to get lost in large landscapes and horizon lines. The calmness of the desert is sure calm your spirit and de-clutter your thoughts. Wadi Rum is waiting for you."
+    },
+    {
+        "id": "7",
+        "name": "Aqaba Beach",
+        "city": "Aqaba",
+        "location_lat": "29.535371",
+        "location_lng": "34.992242",
+        "image":{
+            "imageUrl_1": "https://traveler.marriott.com/wp-content/uploads/2023/03/aqaba-jordan-1288858945.jpg",
+            "imageUrl_2": "https://www.pexels.com/photo/sea-dawn-landscape-sunset-16012244/",
+            "imageUrl_3": "https://i0.wp.com/www.touristjordan.com/wp-content/uploads/2019/02/The-Red-Sea-in-Jordan-2.jpg?resize=1024%2C576&ssl=1",
+            "imageUrl_4": "https://www.worldatlas.com/r/w768/upload/72/1a/70/shutterstock-1830075602.jpg"
+          
+        },
+        "overview": "Aqaba is situated in southernmost Jordan and its the administrative center of the Aqaba Governorate. Aqaba is presently Jordans only seaport. Given that its the only coastal city in Jordan and the largest. But its the most populous city on the gulf of Aqaba."
+      
+    },
+    {
+        "id": "8",
+        "name": "Roman Ruins",
+        "city": "Amman",
+        "location_lat": "31.953246",
+        "location_lng": "35.937099",
+        "image":{
+            "imageUrl_1": "https://images.pexels.com/photos/6992161/pexels-photo-6992161.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "imageUrl_2": "https://images.pexels.com/photos/11932237/pexels-photo-11932237.jpeg",
+            "imageUrl_3": "https://images.pexels.com/photos/6992160/pexels-photo-6992160.jpeg",
+            "imageUrl_4": "https://www.bautrip.com/images/what-to-visit/amman-citadel-jebel-al-qalaa.jpg",
+            "imageUrl_5": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Amman_Citadel.jpg/1280px-Amman_Citadel.jpg"
+        },
+    
+        "overview": "The Roman Theatre is the most impressive monument of old Philadelphia as Amman was known when it was part the Roman Decapolis the cities network on the frontier of the Roman Empire in the southeastern Levant. According to an inscription it was built during the era of the Antonine emperors at the end of the 2nd century AD."
+    },
+    {
+        "id": "9",
+        "name": "Wadi Mujib",
+        "city": "South Madaba",
+        "location_lat": "31.446619",
+        "location-lng": "35.821205",
+        "image":{
+            "imageUrl_1": "https://storage.kempinski.com/cdn-cgi/image/w=960,f=auto,g=auto,fit=scale-down/ki-cms-prod/images/4/5/5/3/313554-1-eng-GB/9e96e4717f7a-74342124_4K.jpg",
+            "imageUrl-2": "https://d3qvqlc701gzhm.cloudfront.net/full/d48431e9e579de07f6a9eb0ad76395d4c753ddbc335940623d95878a462fa330.jpg",
+            "imageUrl-3": "http://wildjordan.com/sites/default/files/styles/destination_slide/public/16-131.jpg?itok=dib25Cn9",
+            "imageUrl-4": "https://upload.wikimedia.org/wikipedia/commons/0/0b/WadiMujib-Canyon.jpg",
+            "imageUrl-5": "https://d3qvqlc701gzhm.cloudfront.net/full/8b38b1d08f37d092b2b352fc61387bab4aba36bfba2c853339f4ed80b1b04935.jpg",
+            "imageUrl-6": "https://media.audleytravel.com/-/media/images/home/blog/2018/february/on-foot-in-jordan/istock531127407canyoninterior_7x5.webp?q=60&w=1600&h=1142"
+        },
+     
+        "overview": "The Mujib Biosphere Reserve is the lowest nature reserve in the world, with a spectacular array of scenery near the east coast of the Dead Sea. The Reserve is located within the deep Wadi Mujib gorge, which enters the Dead Sea at 410m below sea level. The Reserve extends to the Karak and Madaba mountains to the north and south, reaching 900 metres above sea level in some places. This 1300m variation in elevation combined with the valleys year- round water flow from seven tributaries means that Wadi Mujib enjoys a magnificent bio-diversity that is still being explored and documented today. Over 300 species of plants, 10 species of carnivores and numerous species of permanent and migratory birds have been recorded. Some of the remote mountain and valley areas are difficult to reach and thus offer safe havens for rare species of cats goats and other mountain animals. Mujibs sandstone cliffs are an ideal habitat for one of the most beautiful mountain goats in the world the horned Ibex."
+    },
+    {
+        "id": "10",
+        "name": "Qasr Amra",
+        "city": "Zarqa",
+        "location_lat": "31.801909",
+        "location-lng": "36.587268",
+        "image":{
+            "imageUrl_1": "https://www.planetware.com/wpimages/2022/03/jordan-top-attractions-desert-castles.jpg",
+            "imageUrl_2": "https://www.aljazeera.net/wp-content/uploads/2017/07/269ead60-1f3a-4574-969d-d0dacbf3686b.jpeg",
+            "imageUrl_3": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/24/c9/e6.jpg",
+            "imageUrl_4": "https://cdn.timeoutamman.com/wp-content/uploads/2021/10/qasr-al-kharana3.jpg"
+        },
+       
+        "overview": "Qusayr Amra was probably built between 730 - 740 AD commissioned by Prince Walid Ibn Yazid the future Umayyad caliph Walid II (who reigned only 743-744). Located beside the Wadi Butum a seasonal watercourse this desert establishment was both a fortress with a garrison and a residence/pleasure palace that comprises a reception hall and hammam (a bath complex with changing room, warm and hot rooms) all richly decorated with figurative murals."
+    },
+    {
+        "id": "11",
+        "name": "Qasr Al-Mshatta",
+        "city": "South Amman",
+        "location_lat": "31.738175",
+        "location_lng": "36.010817",
+        "image":{
+            "imageUrl_1": "https://universes.art/fileadmin/_migrated/gridelement_uploads/mobile/01-Mshatta-IMG_8073-2-800-700_03.jpg",
+            "imageUrl_2": "https://live.staticflickr.com/896/27400049918_7446f648ca_b.jpg",
+            "imageUrl_3": "https://upload.wikimedia.org/wikipedia/commons/6/61/Qasr_al-Mushatta.jpg",
+            "imageUrl_4": "https://images.museumwnf.org/zoom/monuments/isl/jo/1/2/9.jpg"
+        },
+      
+        "overview": "Qasr al-Mshatta is world-famous for the elaborate ornamentation of its southern main façade with detailed reliefs deeply carved into the limestone. On the western (left) section between zigzag-like moldings and magnificent rosettes and octagons animals and human figures are depicted under a web of vines. On the right side of the gate the decorations are geometric probably due to the presence of the mosque behind."
+    },
+    {
+        "id": "12",
+        "name": "Qasr al-Abd ",
+        "city": "ٍSouth Amman",
+        "location_lat": "31.912649",
+        "location_lng": "35.752298",
+        "image":{
+            "imageUrl_1": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Qasr_Al-Abd%2C_Hellenistic_palace_dating_from_approximately_200_BC%2C_Jordan_%2827505488649%29.jpg",
+            "imageUrl_2": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/27/4f/ff/lion-statue-at-iraq-al.jpg?w=1200&h=-1&s=1",
+            "imageUrl_3": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Qasr_al-Abd3003_eastern_wall.jpg",
+            "imageUrl_4": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Qasr_al-Abd3033.jpg"
+        },
+      
+        "overview": "The highlight of the Iraq al-Amir tour is the visit of Qasr al-Abd an architectural monument of unique character in Jordan. The Hellenistic palace was built between 182 and 175 BC on an elevated platform in the middle of an artificial lake. To reach Qasr al-Abd one had to cross a dam and access through an imposing gate which is today on a terrain overgrown with shrubs on the side of the road."
+    },
+    {
+        "id": "13",
+        "name": "The Royal Automobile Museum",
+        "city": "Amman",
+        "location_lat": "31.982717",
+        "location-lng": "35.826348",
+        "image":{
+            "imageUrl_1": "https://museums.visitjordan.com/uploads/museums/images/c448534c-8f8e-4856-892d-3939a84b4fc9.jpg",
+            "imageUrl_2": "https://museums.visitjordan.com/uploads/museums/images/8d26e666-3744-4866-8a2f-ce8706428eb5.jpg",
+            "imageUrl_3": "https://striveme.com/img/article/1763/muse1.jpg",
+            "imageUrl_4": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/a1/e6/aa/royal-automobile-museum.jpg",
+            "imageUrl_5": "https://museums.visitjordan.com/en/Museum/22"
+        },
+       
+        "overview": "The first public automotive museum in the Arab region, inaugurated by His Majesty King Abdullah II in 2003, it serves as a tribute to the late King Hussein while showcasing part of Jordan's history. The museum displays 80 of the late King's cars and motorcycles, some dating back to 1909. Standing in pristine condition each vehicle tells a unique story along the late Kings life timeline. Together they highlight the 47-year reign of King Hussein and the history of the Kingdom from the era of His Majesty King Abdullah I in early 1920 through the era of His Majesty King Abdullah II today."
+    },
+    {
+        "id": "14",
+        "name": "Dibbeen Forest Reserve",
+        "city": "Jarash",
+        "location_lat": "32.241964",
+        "location_lng": "35.829494",
+        "image":{
+            "imageUrl_1": "https://lh3.googleusercontent.com/p/AF1QipP728_2RalZiyZf86yXZJl1qnaKYRjMBu8vrZgQ=s1360-w1360-h1020",
+            "imageUrl_2": "https://lh3.googleusercontent.com/p/AF1QipMPdr0g255aB5E30tAjET_dSrk0Fof_9PzbNzUM=s1360-w1360-h1020",
+            "imageUrl_3": "https://lh3.googleusercontent.com/p/AF1QipNQ6OTmouB3x1NmEGFher0G1UHRLc-D04kThsLa=s1360-w1360-h1020",
+            "imageUrl_4": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Dibeen_Forest_Reserve.jpg",
+            "imageUrl_5": "https://lh3.googleusercontent.com/p/AF1QipOtFka52kwt1mNlEmae_IaYv-q5uAedc76rgnTU=s1360-w1360-h1020"
+        },
+       
+        "overview": "Dibbeen Forest Reserve is a nature reserve located in the north-west of Jordan. It is situated just south of the Roman site of Jerash and covers an area of 8.5 square kilometers (3.3 sq mi) of rolling hills covered with pine–oak habitat.This area houses the largest Aleppo Pines one of the oldest and naturally grown habitats in Jordan. At least 17 endangered species have been identified within the reserve. These include the Persian red squirrel, four bat types, grey wolves and striped hyenas. Woodland birds also live in the forest. It is also believed but not proven that this reserve has the last population of Southern Banded Newts living in Jordan. The area was protected as a nature reserve in 2004 under the initiative of the Royal Society for the Conservation of Nature. The forest is known as the driest places in the region and ranges over 60 km and is changing in altitude of 500m to 1000m above sea level. The rock within the reserve is a mixture of limestone and chalky limestone which has been formed into steep slopes."
+    }
+]
