@@ -7,9 +7,6 @@ DROP TABLE IF EXISTS visitlist ;
     overview VARCHAR(2000),
     feedback VARCHAR(255)
 
-
-
-
 );
 
 
