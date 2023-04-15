@@ -15,6 +15,19 @@ app.use(cors());
 // const PORT=process.env.PORT || 3001;
 const port = process.env.PORT || 3001;
 
+
+app.get('/vistList',vistListHandler);
+
+
+function vistListHandler(req,res){
+   
+    let sql=`SELECT * FROM visitlist `;
+    client.query(sql).then((result)=>{
+        res.json(result.rows)
+    })
+   .catch()
+ 
+
 //////////// Routes ////////////
 
 app.get('/', homeRouteHandler);
@@ -61,4 +74,5 @@ function Sites(site) {
     this.location_lng = site.location_lng;
     this.overview = site.overview;
     this.image = site.image;
+
 }
