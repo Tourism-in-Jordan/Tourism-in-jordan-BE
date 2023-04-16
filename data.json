@@ -30,7 +30,7 @@
     {
         "id": "3",
         "name": "Dead sea",
-        "city": "West Madaba",
+        "city": "Madaba",
         "location_lat": "31.542377",
         "location_lng": "35.565185",
         "image": {
@@ -115,7 +115,7 @@
     {
         "id": "9",
         "name": "Wadi Mujib",
-        "city": "South Madaba",
+        "city": "Madaba",
         "location_lat": "31.446619",
         "location-lng": "35.821205",
         "image": {
@@ -145,7 +145,7 @@
     {
         "id": "11",
         "name": "Qasr Al-Mshatta",
-        "city": "South Amman",
+        "city": "Amman",
         "location_lat": "31.738175",
         "location_lng": "36.010817",
         "image": {
@@ -159,7 +159,7 @@
     {
         "id": "12",
         "name": "Qasr al-Abd ",
-        "city": "ٍSouth Amman",
+        "city": "ٍAmman",
         "location_lat": "31.912649",
         "location_lng": "35.752298",
         "image": {
